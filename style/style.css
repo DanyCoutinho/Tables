@@ -44,3 +44,11 @@ table#bt thead, tfoot {
 table#bt td, th {
     border: 1px solid black;
 }
+
+table#bt tbody > tr:nth-child(odd) /*odd=impar*/ {
+    background-color: lightgray;
+}
+
+table#bt tbody > tr:nth-child(even) /*even=par*/ {
+    background-color: lightblue;
+}
