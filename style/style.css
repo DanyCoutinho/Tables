@@ -34,11 +34,18 @@ table#st td.dado {
 
 table#bt {
     width: 500px;
+    position: relative;
 }
 
 table#bt thead, tfoot {
     background-color: gray;
     color: white;
+}
+
+table#bt thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
 }
 
 table#bt td, th {
