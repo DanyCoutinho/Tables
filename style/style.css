@@ -4,22 +4,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
+table#st {
     width: 400px;
     height: 400px;
     border: 3px solid red;
     border-collapse: collapse;
 }
 
-tr {
+table#st tr {
     background-color: gray;
 }
 
-tr.line {
+table#st tr.line {
     background-color: aqua;
 }
 
-td {
+table#st tr > td {
     border: 1px solid black;
     padding: 8px;
     /*Alinhamento horizontal*/
@@ -28,6 +28,19 @@ td {
     vertical-align: top;
 }
 
-td.dado {
+table#st td.dado {
     background-color: yellow;
+}
+
+table#bt {
+    width: 500px;
+}
+
+table#bt thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+table#bt td, th {
+    border: 1px solid black;
 }

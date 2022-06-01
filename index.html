@@ -8,7 +8,7 @@
     <title>Tabelas</title>
 </head>
 <body>
-    <h1>A minha primeira tabela</h1>
+    <h1>Tabela pequena</h1>
     <!--
         Hierarquia de tabelas (simples)
         table = tabela
@@ -16,27 +16,67 @@
                 table header = cabeçalho da tabela
                 table data = dado de tabela
     -->
-    <table>
-        <tr class="line">
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
-        </tr>
-        <tr>
-            <td>A2</td>
-            <td class="dado">B2</td>
-            <td>C2</td>
-        </tr>
-        <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
-        </tr>
-        <tr>
-            <td>A4</td>
-            <td>B4</td>
-            <td>C4</td>
-        </tr>
+        <table id="st">
+            <tr class="line">
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td class="dado">B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+
+    <h1>Tabela grande</h1>
+    <!--
+        Anatomia para tabelas grandes
+        Table
+            Head
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    <table id="bt">
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 254 543</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td><strong>70 000 000</strong></td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
