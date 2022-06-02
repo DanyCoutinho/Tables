@@ -148,3 +148,25 @@ table#desafio5 col.col2 {
 table#desafio5 col.col3 {
     background-color: yellow
 }
+
+table#responsive {
+    width: 1500px;
+    border-collapse: collapse;
+}
+
+table#responsive caption {
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+table#responsive tr > td {
+    border: 1px solid black;
+}
+
+table#responsive tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+div#container {
+    overflow-x: auto;
+}
