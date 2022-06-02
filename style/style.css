@@ -126,3 +126,25 @@ table#desafio4 tr.media {
     background-color: grey;
     color: white;
 }
+
+table#desafio5 {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table#desafio5 tr > td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table#desafio5 col.col1 {
+    background-color: aliceblue;
+}
+
+table#desafio5 col.col2 {
+    background-color: antiquewhite;
+}
+
+table#desafio5 col.col3 {
+    background-color: yellow
+}
