@@ -90,3 +90,39 @@ table#desafio2 tr > td.quadrado {
     height: 50px;
 }
 
+table#desafio3 {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table#desafio3 caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 5px;
+}
+
+table#desafio3 tr > td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table#desafio4 {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table#desafio4 thead {
+    background-color: grey;
+    color: white;
+}
+
+table#desafio4 tr > td {
+    border: 1px solid black;
+}
+
+table#desafio4 tr.media {
+    background-color: grey;
+    color: white;
+}
